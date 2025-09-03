@@ -44,7 +44,7 @@ A Model Context Protocol (MCP) server that integrates with the [Babbar.tech SEO 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/babbar/mcp-server.git
+git clone https://github.com/BabbarTech/BabbarMCP.git
 cd mcp-server
 ```
 
@@ -55,17 +55,15 @@ npm install
 
 ### 3. Set up environment variables
 You must export your Babbar API key:
-
-# Linux / macOS
+Create a .env file from the provided .env.example:
 ```bash
-export BABBAR_API_KEY="your_api_key_here"
-export LOG_LEVEL="info"   # optional: debug, info, warn, error
+cp .env.example .env
 ```
 
-# Windows (PowerShell)
-```bash
-$env:BABBAR_API_KEY="your_api_key_here"
-$env:LOG_LEVEL="info"
+Edit .env:
+```dotenv
+BABBAR_API_KEY=your_api_key_here
+LOG_LEVEL=info
 ```
 
 ⚠️ Without a valid key, the server will not return real data (the API substitutes with dummy hosts/URLs).
@@ -78,6 +76,16 @@ npm run build
 This compiles TypeScript sources into the dist/ directory.
 
 ## ▶️ Usage
+### Local development
+Run in watch mode:
+```bash
+npm run dev
+```
+
+Run built server:
+```bash
+node dist/index.js
+```
 
 ### With Claude Desktop
 Add this block to your `claude_desktop_config.json`:
