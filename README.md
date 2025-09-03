@@ -145,7 +145,13 @@ Env: at least BABBAR_API_KEY
 - `babbar_anchor_profile_risk`
 - `babbar_backlink_opportunities_spotfinder` (uses Induced Strength only)
 
-## 📖 Example Queries
+## 📖 Example Queries (works in French)
+- **Do a full metrics analysis of whisky.glass**  
+- **Give me backlink opportunities for www.recette-americaine.com**  
+- **Tell me about the semantic neighborhood of www.clubmed.fr**  
+- **Can you run a content gap analysis for whisky.glass?**  
+- **Show me the internal duplication issues within whisky.glass**  
+- **Provide me with a health analysis of whisky.glass**  
 
 ## 📊 Understanding Babbar Metrics
 
