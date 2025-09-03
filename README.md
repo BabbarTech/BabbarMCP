@@ -45,7 +45,7 @@ A Model Context Protocol (MCP) server that integrates with the [Babbar.tech SEO 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/BabbarTech/BabbarMCP.git
-cd mcp-server
+cd BabbarMCP
 ```
 
 ### 2. Install dependencies
